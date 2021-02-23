@@ -9,7 +9,7 @@ function Footer () {
 
   return (
     <footer className={theme}>
-      Footer
+      <p>Tashrifingiz uchun tashakkur, yana kelib turing:)</p>
     </footer>
   )
 }

@@ -9,7 +9,8 @@ function Header () {
 
   return (
     <header className={theme}>
-      <h3>Header</h3>
+      <h3>Saytimizga Xush kelibsiz</h3>
+      <p>Ushbu saytda xozirda faqat tilni o'zgartirish va thema o'zgartirish ishlaydi.</p>
         
       <select 
         onChange= {e => setTheme(e.target.value)}
