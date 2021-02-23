@@ -29,7 +29,7 @@ function App() {
         <p>Telefon raqamingizni qoldiring:</p>
         <input 
         onChange={e=> setValueI(e.target.value)}
-        type="number"
+        type="text"
         className="login_input"
         />
         <button className={active ? "login_btn": "login_btn warning"}>submit</button>
