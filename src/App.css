@@ -11,11 +11,6 @@ body {
   height: 100vh;
 }
 
-.main {
-  padding: 100px;
-  background-color: rgb(189, 85, 85);
-} 
-
 .login {
   padding: 2rem;
   padding-top: 100px;
