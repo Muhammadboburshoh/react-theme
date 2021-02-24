@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react"
 
 import Header from "./Componints/Header/Header"
-import Footer from "./Componints/Footer/Footer"
+import { Footer } from "./Componints/Footer/Footer"
 
 import './App.css'
 

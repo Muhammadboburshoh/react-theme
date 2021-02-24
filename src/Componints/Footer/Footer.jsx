@@ -11,18 +11,16 @@ function Footer () {
 
   const { theme } = useContext(ThemeContext)
   const { language, setLanguage } = useContext(LanguageContext)
-  
-  console.log(languages);
-  console.log(language);
-  
+
   let index;
 
   if (language === "ru") {
     index = 1
   } else if (language === "uz") {
     index = 0
+  } else if (language === "tr") {
+    index = 2
   }
-  console.log(index);
 
   return (
     <footer className={theme}>
@@ -39,4 +37,6 @@ function Footer () {
   )
 }
 
-export default Footer
+export {
+  Footer,
+} 
