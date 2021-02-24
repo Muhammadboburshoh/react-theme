@@ -11,7 +11,6 @@ function Header () {
 
   const {theme, setTheme} = useContext(ThemeContext)
   const { language } = useContext(LanguageContext)
-  console.log(language);
 
   let index;
 
@@ -22,7 +21,6 @@ function Header () {
   } else if (language === "tr") {
     index = 2
   }
-  console.log(index);
 
   return (
     <header className={theme}>
