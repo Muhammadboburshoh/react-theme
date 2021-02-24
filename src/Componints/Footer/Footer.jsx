@@ -8,7 +8,7 @@ function Footer () {
 
   const { theme } = useContext(ThemeContext)
   const { language, setLanguage } = useContext(LanguageContext)
-
+  console.log(language);
   return (
     <footer className={theme}>
       <p>Tashrifingiz uchun tashakkur, yana kelib turing!</p>
