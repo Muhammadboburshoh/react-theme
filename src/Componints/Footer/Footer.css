@@ -3,15 +3,14 @@ footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border: 1px solid #123;
 }
 
-.light {
-  background-color: #c0c0c0;
+footer.light {
+  background-color: rgb(204, 193, 228);
   color: #122;
 }
 
-.dark {
+footer.dark {
   background-color: #133;
   color: #c0c0c0;
 }
