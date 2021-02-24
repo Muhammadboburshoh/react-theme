@@ -6,7 +6,6 @@ function ThemeProvider ({children}) {
 
   const [ theme, setTheme ] = useState(window.localStorage.getItem("theme") || "dark")
 
-  // setTheme()
   useEffect(() => {
     window.localStorage.setItem("theme", theme)
   },[theme])
