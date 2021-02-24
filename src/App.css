@@ -13,6 +13,7 @@ body {
 
 .main {
   padding: 100px;
+  background-color: rgb(189, 85, 85);
 } 
 
 .login {
@@ -21,7 +22,9 @@ body {
   padding-bottom: 100px;
   margin-top: auto;
   margin-bottom: auto;
+  background-color: rgb(218, 218, 218);
 }
+
 
 .login_input {
   outline: none;
@@ -30,6 +33,7 @@ body {
   margin-right: 25px;
   border-radius: 5px;
   border: 1px solid #123;
+  background-color: rgb(236, 232, 232);
 }
 
 .login_btn {
